@@ -1,0 +1,144 @@
+{
+  "tests": [
+    {
+      "name": "parte1s1",
+      "setup": "make",
+      "run": "./a.out parte1 -c s1",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "parte1s2",
+      "setup": "make",
+      "run": "./a.out parte1 -c s2",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "parte1s3",
+      "setup": "make",
+      "run": "./a.out parte1 -c s3",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "parte1s4",
+      "setup": "make",
+      "run": "./a.out parte1 -c s4",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "parte1s5",
+      "setup": "make",
+      "run": "./a.out parte1 -c s5",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "parte2s1",
+      "setup": "make",
+      "run": "./a.out parte2 -c s1",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "parte2s2",
+      "setup": "make",
+      "run": "./a.out parte2 -c s2",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "parte3s1",
+      "setup": "make",
+      "run": "./a.out parte3 -c s1",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "parte3s2",
+      "setup": "make",
+      "run": "./a.out parte3 -c s2",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "parte3s3",
+      "setup": "make",
+      "run": "./a.out parte3 -c s3",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "parte4s1",
+      "setup": "make",
+      "run": "./a.out parte4 -c s1",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "parte4s2",
+      "setup": "make",
+      "run": "./a.out parte4 -c s2",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "parte4s3",
+      "setup": "make",
+      "run": "./a.out parte4 -c s3",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "parte4s4",
+      "setup": "make",
+      "run": "./a.exe parte4 -c s4",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    }
+  ]
+}
