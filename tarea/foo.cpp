@@ -246,3 +246,15 @@ Matriz2D operator/(const Matriz2D& m, float n){
     return res;
 }
 
+ float Matriz2D::get(int i, int j){
+     return ptr[i][j];
+ }
+
+ int Matriz2D::getFilas(){
+     return filas;
+ }
+
+ int Matriz2D::getColumnas(){
+     return columnas;
+ }
+
