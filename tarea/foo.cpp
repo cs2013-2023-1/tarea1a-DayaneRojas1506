@@ -150,6 +150,7 @@ Matriz2D t(Matriz2D& m) {
     }
     return transpuesta;
 }
+
 std::ostream& operator<<(std::ostream& os, const Matriz2D& item){
     // Sobrecarga del operador <<
     for(int i = 0; i < item.filas; i++){
@@ -162,9 +163,8 @@ std::ostream& operator<<(std::ostream& os, const Matriz2D& item){
 }
 
 
-
+ // Sobrecarga del operador +
 Matriz2D operator+(const Matriz2D& m1, const Matriz2D& m2){
-    // Sobrecarga del operador +
     if (m1.filas != m2.filas || m1.columnas != m2.columnas) {
         throw std::invalid_argument("No se pueden sumar matrices de distintas dimensiones");
     }
@@ -176,7 +176,7 @@ Matriz2D operator+(const Matriz2D& m1, const Matriz2D& m2){
     }
     return res;
 }
-
+ // Sobrecarga del operador -
 Matriz2D operator-(const Matriz2D& m1, const Matriz2D& m2){
     if (m1.filas != m2.filas || m1.columnas != m2.columnas) {
         throw std::invalid_argument("No se pueden restar matrices de distintas dimensiones");
